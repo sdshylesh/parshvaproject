@@ -1,0 +1,103 @@
+.form 
+{
+    margin-left: 280px;
+    margin-top: 90px;
+    border-radius: 20px;
+    width: 838px;
+    height: 500px;
+    overflow: hidden;
+  
+}
+.formwrap
+{
+
+   /* background-color: rgb(201, 201, 244); */
+    display: grid;
+    height: 400px;
+    grid-template-columns: 400px 400px;
+   grid-gap: 20px;
+  
+
+}
+/* input{
+    margin-left: 30px;
+    width: 200px;
+} */
+/* label{
+    width: 2px;
+
+} */
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 8px; /* Adjust the value to control the spacing */
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2; /* Optional: Add a background color to header cells */
+  }
+  body{
+    background: linear-gradient(to right, #FF5733, #ad62fd); /* Replace with your desired gradient colors */
+    -webkit-background-clip: text;
+    /* color: transparent; */
+    font-family: "Courier New", monospace;
+    font-weight:bolder;
+  }
+
+
+
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust the margin to control the distance between label and input */
+  }
+label {
+    flex: 1; /* Distribute available space to the label */
+    margin-right: 10px; /* Adjust the margin to control the space between label and input */
+  }
+  input {
+    height: 30px;
+    flex: 2; 
+    border-radius: 10px;
+    border: none;
+  }
+ 
+  select {
+    flex: 2;
+    height: 30px;
+    overflow: hidden; /* Hide the content that overflows the fixed height */
+border: none;
+border-radius: 10px;
+  }
+  button{
+    width: 200px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+
+
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+  }
+  button:hover{
+    background-color: #2980b9;
+    color: #fff;
+    transform: scale(1.1); /* Optional: Add a scaling effect on hover */
+    transition: 0.3s; 
+  }
+  
